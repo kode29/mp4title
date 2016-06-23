@@ -9,6 +9,7 @@ This uses **mp4v2-utils** to access and set the MP4 metadata
 Files are set up like this:
 * **Filename:** Burn Notice 01 Pilot.mp4
 * **MP4 (album) title:** title00
+
 (You can view the title of the video by playing it in almost any video player - I recommend VLC, as it will put the *title* in the Status bar)
 
 Place it in your root folder of your videos, and let it run.
