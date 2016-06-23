@@ -1,10 +1,10 @@
 #!/bin/bash -   
-#title          :title-header.sh
+#title          :mp4title.sh
 #description    :A script to automatically update the MP4 metadata title with the filename
 #author         :Kyle M. Perkins
 #date           :20160623
 #version        :0.2    
-#usage          :./title.sh
+#usage          :./mp4title.sh
 #notes          :       
 #bash_version   :4.3.42(1)-release
 #============================================================================
