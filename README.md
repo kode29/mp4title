@@ -17,3 +17,5 @@ Place it in your root folder of your videos, and let it run.
 `./mp4title.sh`
 
 If the *title* of the mp4 file is the same as the filename, it will skip it.
+
+(Also, uses *espeak* to announce that the process is done. A neat little feature, but completely optional)
