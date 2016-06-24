@@ -3,7 +3,7 @@
 #description    :A script to automatically update the MP4 metadata title with the filename
 #author         :Kyle M. Perkins
 #date           :20160623
-#version        :0.2    
+#version        :0.21 
 #usage          :./mp4title.sh
 #notes          :       
 #bash_version   :4.3.42(1)-release
@@ -34,6 +34,6 @@ do
 		echo "Title is the same. No action taken."
 	fi
 done
-echo "====";
-espeak -s 125 "All file tags modified"
+#echo "====";
+espeak -s 125 "All file tags modified" 2>/dev/null
 IFS=$SAVEIFS
