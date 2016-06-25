@@ -3,7 +3,7 @@
 #description    :A script to automatically update the MP4 metadata title with the filename
 #author         :Kyle M. Perkins
 #date           :20160623
-#version        :0.21 
+#version        :0.22
 #usage          :./mp4title.sh
 #notes          :       
 #bash_version   :4.3.42(1)-release
@@ -13,7 +13,7 @@
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
-for f in $(find . -name "*.mp4")
+for f in $(find . -name "*.mp4"| sort -V)
 do
 	#echo "Filepath: $f"
 	# Get filename (minus extension)
